@@ -8,7 +8,7 @@
 	<config language="{897793E3-73F3-4895-A956-3D41D3A24A45}" />
 	<testItems key="{F55E6EA0-9DAA-4161-95E7-79170AE5AA2E}" version="14">
 		<children>
-			<testItem name="ProjectTestItem1" key="{7B6F188D-F68E-447B-B5CC-5BEB7553C443}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2DD65208-0EB6-4837-9B51-12311B7740F6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://TIT-1" testCase="True">
+			<testItem name="TIT-1" key="{7B6F188D-F68E-447B-B5CC-5BEB7553C443}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2DD65208-0EB6-4837-9B51-12311B7740F6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://TIT-1" testCase="True">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />

@@ -8,7 +8,7 @@
 		</Data>
 		<Children>
 			<Operation Type="{BFB3C418-1303-46B3-9B24-3624AB5EB529}">
-				<Data Description="Posts an information message to the test log." MessageType="0">
+				<Data Description="Posts an error to the test log." MessageType="1">
 					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
 						<Parameter Name="MessageText" DefVarType="12" VarType="8" ValueType="6" ValueValue="sample test" />
 						<Parameter Name="Details" DefVarType="12" VarType="8" ValueType="6" ValueValue="" />

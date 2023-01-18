@@ -8,20 +8,16 @@
 	<config language="{897793E3-73F3-4895-A956-3D41D3A24A45}" />
 	<testItems key="{F55E6EA0-9DAA-4161-95E7-79170AE5AA2E}" version="14">
 		<children>
-			<testItem name="ProjectTestItem1" key="{7B6F188D-F68E-447B-B5CC-5BEB7553C443}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2DD65208-0EB6-4837-9B51-12311B7740F6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="ProjectTestItem1" key="{7B6F188D-F68E-447B-B5CC-5BEB7553C443}" group="False" parallel="False" enabled="True" testMoniker="KDT\{2DD65208-0EB6-4837-9B51-12311B7740F6}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="zfj://TIT-1" testCase="True">
 				<testParameters />
-				<environments activeCloud="SWT">
-					<cloud name="SWT" testedURL="https://virtualbinderqa.littlercasesmart.com/">
-						<CapabilityItem Server="https://eu-desktop-hub.bitbar.com/wd/hub" JSON="{&quot;platform&quot;:&quot;Windows&quot;,&quot;osVersion&quot;:&quot;10&quot;,&quot;browserName&quot;:&quot;Microsoft Edge&quot;,&quot;version&quot;:&quot;106&quot;,&quot;resolution&quot;:&quot;1920x1080&quot;}" Platform="Desktop" OS="Windows 10" Browser="Microsoft Edge 106" Resolution="1920x1080" CustomCapabilitiesInfo="" />
-					</cloud>
-				</environments>
+				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
 		</children>
 	</testItems>
 	<variables key="{7E97FA5B-7157-419C-ABB5-9EDA16A32019}" />
 	<settings key="{EFED8CDB-5E48-48E6-A03E-B442100C7AEC}">
-		<settingsVersion value="15.45" />
+		<settingsVersion value="15.47" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -481,7 +477,7 @@
 				<row val0="CrossBrowserTesting" />
 			</data>
 		</setting>
-		<setting name="ZFJ_Cycle" type="5" value="" />
+		<setting name="ZFJ_Cycle" type="5" value="Sample_Cycle" />
 		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
 		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
 		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
@@ -495,14 +491,14 @@
 				<row val0="Zephyr Squad Cloud" />
 			</data>
 		</setting>
-		<setting name="ZFJ_JiraLogin" type="5" value="" />
-		<setting name="ZFJ_JiraPassword" type="5" value="" />
-		<setting name="ZFJ_JiraProject" type="5" value="" />
-		<setting name="ZFJ_JiraUrl" type="5" value="" />
+		<setting name="ZFJ_JiraLogin" type="5" value="arunsundarareddy@gmail.com" />
+		<setting name="ZFJ_JiraPassword" type="5" value="3A029EEB41C5B2B8E4A0C28D5AC4E508E563FF2DA0930F1F578E98E75D0A1424D38795BA63612316609266E07262561D9C0FAC15F250" />
+		<setting name="ZFJ_JiraProject" type="5" value="TestComplete_Integration_Test" />
+		<setting name="ZFJ_JiraUrl" type="5" value="https://noustest.atlassian.net/" />
 		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
-		<setting name="ZFJ_Version" type="5" value="" />
-		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
-		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
+		<setting name="ZFJ_Version" type="5" value="&lt;Unscheduled&gt;" />
+		<setting name="ZFJ_ZephyrAccessKey" type="5" value="ODM2NjA0MTUtNzQ1Zi0zZjM5LTllOGMtMTg1YzFiZGYwZjEyIDYzYzdhNzIzY2Q2YTA5YWJlNzFlODRmMCBVU0VSX0RFRkFVTFRfTkFNRQ" />
+		<setting name="ZFJ_ZephyrSecretKey" type="5" value="jLpgmlZhaKB0pLhU5Agh22vkKRtNdDtlF-HPeB95TeY" />
 	</settings>
 	<analysis key="{05B761D6-3D5B-4BE8-8837-87C632766124}" />
 	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
